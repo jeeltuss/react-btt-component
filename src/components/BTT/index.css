@@ -1,0 +1,25 @@
+#btt-wrap {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  background-color: tomato;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 99px;
+  color: #ffffff;
+  transition: 0.2s linear all;
+  opacity: 0;
+}
+
+#btt-wrap.visible {
+  opacity: 1;
+}
+
+#btt-wrap:hover {
+  background: crimson;
+  transition: 0.2s linear all;
+}
